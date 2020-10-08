@@ -22,14 +22,14 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading
     greater than the maximum '_phish_id'
     in the database.
     
-3.  Process data using Pandas
+2.  Process data using Pandas
     
     Transforms them to create five fields listed below :
-    #### Fact Table
+    ####
 	 **dataset**  - records in log data associated with phishing data
     -   _phish_id, date, month, hour, url, domain
     
-4.  Load it back to S3
+3.  Load it back to ElasticSearch
 
 
 ## Demonstration
