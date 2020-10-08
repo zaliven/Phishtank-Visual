@@ -14,6 +14,24 @@ visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plo
 plot.ipynb - A jupyter notebook to analyse the dataset before loading
 ``` 
 
+## ETL Pipeline
+    
+1.  Read data from Phishtank
+  
+    The script reads data from Phishtank's API. It processes only new data, of logs with '_phish_id'
+    greater than the maximum '_phish_id'
+    in the database.
+    
+3.  Process data using Pandas
+    
+    Transforms them to create five fields listed below :
+    #### Fact Table
+	 **dataset**  - records in log data associated with phishing data
+    -   _phish_id, date, month, hour, url, domain
+    
+4.  Load it back to S3
+
+
 ## Demonstration
 Available at https://zaliven.github.io/Phishtank-Visual/
 
