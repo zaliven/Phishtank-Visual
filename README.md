@@ -5,12 +5,11 @@ This project implements the Phishtank api to build a simple ETL pipeline to fetc
 
 ## Files
 ```
-application.py - Backend for the application, built on Flask. Handles GET requests, updates the database and draws plots
-
-visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plots.
+application.py - Backend for the application, built on Flask. Handles GET requests, updates the database and draws plots.
 
 dataprocess.py - Processes and transforms the data received from Phishtank's api.
 
+visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plots.
 ``` 
 
 ## Demonstration
