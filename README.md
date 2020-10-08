@@ -9,7 +9,7 @@ application.py - Backend for the application, built on Flask. Handles GET reques
 
 dataprocess.py - Processes and transforms the data received from Phishtank's api.
 
-visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plots.
+visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plots. Converts plot images to base64 and sends them back to the main application.
 
 plot.ipynb - A jupyter notebook to analyse the dataset before loading
 ``` 
@@ -28,6 +28,13 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading
     -   _phish_id, date, month, hour, url, domain, target, ip_address, country
     
 3.  Load it back to ElasticSearch
+
+## External python libraries used
+- Pandas
+- Matplotlib
+- APScheduler
+- es_pandas
+
 
 
 ## Demonstration
