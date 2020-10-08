@@ -11,7 +11,7 @@ dataprocess.py - Processes and transforms the data received from Phishtank's api
 
 visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plots. Converts plot images to base64 and sends them back to the main application.
 
-plot.ipynb - A jupyter notebook to analyse the dataset before loading
+plot.ipynb - A jupyter notebook to analyse the dataset before loading.
 ``` 
 
 ## ETL Pipeline
