@@ -5,7 +5,7 @@ import pandas as pd
 import base64
 from io import BytesIO
 
-# Generates base64 for png images of plots
+# Generates base64 data of plots png images
 def visualize(df):
     hours = get_hours(df)
     targets = get_top_targets(df)
