@@ -14,7 +14,7 @@ application = app = Flask(__name__, template_folder=project_root)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 elastic_host = "<ELASTICSEARCH_HOST>"
-url = "http://data.phishtank.com/data/<API_KEY>/online-valid.csv" # Phishtank API
+url = "http://data.phishtank.com/data/<API_KEY>/online-valid.json" # Phishtank API
 es_index = "phishtank" # ElasticSearch index
 dp = Dataprocessor(elastic_host) # ElasticSearch client and data processing functions
 
