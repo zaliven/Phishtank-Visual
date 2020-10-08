@@ -18,9 +18,7 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading
     
 1.  Read data from Phishtank
   
-    The script reads data from Phishtank's API. It processes only new data, of logs with '_phish_id'
-    greater than the maximum '_phish_id'
-    in the database.
+    The script reads data from Phishtank's API. It processes only new data, of logs with '_phish_id' greater than the maximum '_phish_id' in the database to avoid duplicates.
     
 2.  Process data using Pandas
     
