@@ -1,6 +1,6 @@
 # Phishtank Visual
 ## Overview 
-This project implements the Phishtank api to build a simple ETL pipeline to fetch every 8 hours data into an ElasticSearch database. Afterwards, it visualizes Matplotlib plots to display different statistics from the database.
+This project implements the Phishtank api to build a simple ETL pipeline to fetch data every 8 hours into an ElasticSearch database. Afterwards, it visualizes Matplotlib plots to display different statistics from the database.
 
 
 ## Files
