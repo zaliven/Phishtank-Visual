@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/6.6.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap" rel="stylesheet">
+    <title>Phishtank Visuals</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        html {
+            display: table;
+            margin: auto;
+            font-family: 'B612', sans-serif;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        h2 {
+            font-size:32px;
+        }
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+        .col-xs-12 {
+            padding-top: 40px;
+        }
+        h1 {
+            padding-left:180px;
+        }
+        h2 {
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Phishtank Visuals</h1>
+    <h2>Last update: {{time}}</h2>
+    <p style="padding-left:150px">Display of some statistics from Phishtank</p>
+    <p style="padding-left:220px"> Updates every 8 hours</p>
+    <div class="container">
+        <div class="col-xs-12 col-md-6">
+            <img src='data:image/png;base64,{{mtplb.days}}'/>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <img src='data:image/png;base64,{{mtplb.hours}}'/>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <img style="padding-left:140px" src='data:image/png;base64,{{mtplb.pie}}'/>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <img src='data:image/png;base64,{{mtplb.targets}}'/>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <img src='data:image/png;base64,{{mtplb.months}}'/>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <img src='data:image/png;base64,{{mtplb.domains}}'/>
+        </div>
+    </div>
+    <!--
+        what the hell
+    -->
+</body>
+</html>
