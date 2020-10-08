@@ -22,7 +22,7 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading
     
 2.  Process data using Pandas
     
-    Transforms them to create 9 fields, as listed below :
+    Transforms data to create 9 fields, as listed below :
     -   _phish_id, date, month, hour, url, domain, target, ip_address, country
     
 3.  Load it back to ElasticSearch
