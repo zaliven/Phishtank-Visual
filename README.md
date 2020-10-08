@@ -25,8 +25,6 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading
 2.  Process data using Pandas
     
     Transforms them to create five fields listed below :
-    ####
-	 **dataset**  - records in log data associated with phishing data
     -   _phish_id, date, month, hour, url, domain
     
 3.  Load it back to ElasticSearch
