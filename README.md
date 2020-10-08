@@ -18,14 +18,14 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading
     
 1.  Read data from Phishtank
   
-    The script reads data from Phishtank's API. It processes only new data, of logs with '_phish_id' greater than the maximum '_phish_id' in the database to avoid duplicates.
+    The script uses Phishtank's API to fetch new data. It processes only new data, of logs with '_phish_id' greater than the maximum '_phish_id' in the database to avoid duplicates.
     
 2.  Process data using Pandas
     
     Transforms data to create 9 fields, as listed below :
     -   _phish_id, date, month, hour, url, domain, target, ip_address, country
     
-3.  Load it back to ElasticSearch
+3.  Load data to ElasticSearch
 
 ## External python libraries used
 - Pandas
