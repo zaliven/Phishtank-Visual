@@ -10,6 +10,8 @@ application.py - Backend for the application, built on Flask. Handles GET reques
 dataprocess.py - Processes and transforms the data received from Phishtank's api.
 
 visualizer.py - Receives a pandas dataframe and utilizes Matplotlib to build plots.
+
+plot.ipynb - A jupyter notebook to analyse the dataset before loading
 ``` 
 
 ## Demonstration
