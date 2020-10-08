@@ -6,8 +6,7 @@ import gc
 import traceback
 
 
-# Phishtank json and csv outputs are different. json format contains more data (column 'details') and date object is different.
-# json date object is a datetime object. csv date object is a string.
+# Phishtank json and csv outputs are different. json format contains more data (column 'details').
 class Dataprocessor:
     def __init__(self, host):
         self.ep = es_pandas(host)
