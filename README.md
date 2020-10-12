@@ -32,6 +32,7 @@ plot.ipynb - A jupyter notebook to analyse the dataset before loading.
 - Matplotlib
 - APScheduler
 - es_pandas
+- Flask
 
 ![Imgur](https://i.imgur.com/vLyITl2.png)
 
